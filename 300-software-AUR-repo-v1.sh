@@ -35,33 +35,33 @@ echo "Installing category Accessories"
 sh AUR/install-conky-lua-archers-v*.sh
 sh AUR/install-mintstick-git-v*.sh
 
-echo "Installing category Development"
+# echo "Installing category Development"
 
-sh AUR/install-sublime-text-v*.sh
+# sh AUR/install-sublime-text-v*.sh
 
-echo "Installing category Education"
-
-
-echo "Installing category Games"
+# echo "Installing category Education"
 
 
-echo "Installing category Graphics"
+# echo "Installing category Games"
 
 
-echo "Installing category Internet"
+# echo "Installing category Graphics"
 
 
-echo "Installing category Multimedia"
+# echo "Installing category Internet"
 
-sh AUR/install-gradio-v*.sh
+
+# echo "Installing category Multimedia"
+
+# sh AUR/install-gradio-v*.sh
 sh AUR/install-peek-v*.sh
 sh AUR/install-radiotray-v*.sh
 
 
-echo "Installing category Office"
+# echo "Installing category Office"
 
 
-echo "Installing category Other"
+# echo "Installing category Other"
 
 
 echo "Installing category System"
@@ -72,9 +72,9 @@ sh AUR/install-inxi-v*.sh
 sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
 sh AUR/install-oxy-neon-v*.sh
-sh AUR/install-pamac-aur-v*.sh
-#sh AUR/install-paper-icon-theme-git-v*.sh
-#sh AUR/install-papirus-icon-theme-git-v*.sh
+#sh AUR/install-pamac-aur-v*.sh
+sh AUR/install-paper-icon-theme-git-v*.sh
+sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-sardi-icons-v*.sh
 sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-screenkey-git-v*.sh
@@ -82,7 +82,7 @@ sh AUR/install-surfn-icons-git-v*.sh
 sh AUR/install-the-platinum-searcher-bin-v*.sh
 sh AUR/install-ttf-font-awesome-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
-sh AUR/install-virtualbox-for-linux-v*.sh
+# sh AUR/install-virtualbox-for-linux-v*.sh
 
 # these come always last
 

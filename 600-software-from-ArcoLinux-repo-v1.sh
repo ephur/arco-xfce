@@ -22,15 +22,15 @@ echo
 
 sudo pacman -S arcolinux-arc-themes-nico-git --noconfirm --needed
 sudo pacman -S arcolinux-bin-git --noconfirm --needed
-#sudo pacman -S arcolinux-common-git --noconfirm --needed
+sudo pacman -S arcolinux-common-git --noconfirm --needed
 sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 #sudo pacman -S arcolinux-conky-collection-plasma-git --noconfirm --needed
 sudo pacman -S arcolinux-cron-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
 sudo pacman -S arcolinux-faces-git --noconfirm --needed
 sudo pacman -S arcolinux-fonts-git --noconfirm --needed
-sudo pacman -S arcolinux-geany-git --noconfirm --needed
-sudo pacman -S arcolinux-hblock-git --noconfirm --needed
+#sudo pacman -S arcolinux-geany-git --noconfirm --needed
+# sudo pacman -S arcolinux-hblock-git --noconfirm --needed
 sudo pacman -S arcolinux-kvantum-git --noconfirm --needed
 #sudo pacman -S arcolinux-kvantum-lxqt-git --noconfirm --needed
 #sudo pacman -S arcolinux-kvantum-plasma-git --noconfirm --needed
@@ -49,11 +49,11 @@ sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-obmenu-generator-git --noconfirm --needed
 #sudo pacman -S arcolinux-obmenu-generator-minimal-git --noconfirm --needed
-#sudo pacman -S arcolinux-obmenu-generator-xtended-git --noconfirm --needed
-#sudo pacman -S arcolinux-openbox-themes-git --noconfirm --needed
+sudo pacman -S arcolinux-obmenu-generator-xtended-git --noconfirm --needed
+sudo pacman -S arcolinux-openbox-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-pipemenus-git --noconfirm --needed
-sudo pacman -S arcolinux-plank-git --noconfirm --needed
-sudo pacman -S arcolinux-plank-themes-git --noconfirm --needed
+#sudo pacman -S arcolinux-plank-git --noconfirm --needed
+#sudo pacman -S arcolinux-plank-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-polybar-git --noconfirm --needed
 sudo pacman -S arcolinux-qt5-git --noconfirm --needed
 #sudo pacman -S arcolinux-qt5-plasma-git --noconfirm --needed
@@ -64,10 +64,10 @@ sudo pacman -S arcolinux-slim --noconfirm --needed
 sudo pacman -S arcolinux-slimlock-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-system-config-git --noconfirm --needed
 sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
-#sudo pacman -S arcolinux-tint2-git --noconfirm --needed
-#sudo pacman -S arcolinux-tint2-themes-git --noconfirm --needed
-sudo pacman -S arcolinux-variety-git --noconfirm --needed
-sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
+sudo pacman -S arcolinux-tint2-git --noconfirm --needed
+sudo pacman -S arcolinux-tint2-themes-git --noconfirm --needed
+#sudo pacman -S arcolinux-variety-git --noconfirm --needed
+#sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
 #sudo pacman -S arcolinux-wallpapers-lxqt-dual-git --noconfirm --needed
 sudo pacman -S arcolinux-xfce4-panel-profiles-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmobar-git --noconfirm --needed
@@ -170,8 +170,8 @@ echo "################################################################"
 echo "####             Software used by ArcoLinux                 ####"
 echo "################################################################"
 
-sudo pacman -S --noconfirm --needed discord
-sudo pacman -S --noconfirm --needed telegram-desktop
+# sudo pacman -S --noconfirm --needed discord
+# sudo pacman -S --noconfirm --needed telegram-desktop
 
 echo "################################################################"
 echo "####     Software from ArcoLinux 3party Repository installed       ####"

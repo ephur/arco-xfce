@@ -30,72 +30,33 @@ sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cronie
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
-sudo pacman -S --noconfirm --needed plank
-sudo pacman -S --noconfirm --needed xfburn
-sudo pacman -S --noconfirm --needed variety
+# sudo pacman -S --noconfirm --needed plank
+# sudo pacman -S --noconfirm --needed xfburn
+# sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
 
-echo "Installing category Development"
+echo "Installing snaps (snap must already be enabled/configured!)"
+sudo snap install code --classic
+sudo snap install slack --classic
 
-sudo pacman -S --noconfirm --needed atom
-sudo pacman -S --noconfirm --needed geany
-sudo pacman -S --noconfirm --needed meld
-#sudo pacman -S --noconfirm --needed
-
-echo "Installing category Education"
-
-#sudo pacman -S --noconfirm --needed
-
-echo "Installing category Games"
-
-#sudo pacman -S --noconfirm --needed
-
-echo "Installing category Graphics"
-
-#sudo pacman -S --noconfirm --needed darktable
-sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed gnome-font-viewer
 sudo pacman -S --noconfirm --needed gpick
-sudo pacman -S --noconfirm --needed inkscape
 sudo pacman -S --noconfirm --needed nomacs
-#sudo pacman -S --noconfirm --needed pinta
 sudo pacman -S --noconfirm --needed ristretto
-#sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
 
 sudo pacman -S --noconfirm --needed chromium
-#sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
-#sudo pacman -S --noconfirm --needed hexchat
-sudo pacman -S --noconfirm --needed qbittorrent
-#sudo pacman -S --noconfirm --needed
+# sudo pacman -S --noconfirm --needed hexchat
 
 echo "Installing category Multimedia"
-
-#sudo pacman -S --noconfirm --needed clementine
-#sudo pacman -S --noconfirm --needed deadbeef
-#sudo pacman -S --noconfirm --needed mpv
-#sudo pacman -S --noconfirm --needed openshot
-sudo pacman -S --noconfirm --needed pragha
-#sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
-#sudo pacman -S --noconfirm --needed smplayer
 sudo pacman -S --noconfirm --needed vlc
-#sudo pacman -S --noconfirm --needed
 
 echo "Installing category Office"
-
 sudo pacman -S --noconfirm --needed evince
-sudo pacman -S --noconfirm --needed evolution
-#sudo pacman -S --noconfirm --needed geary
-#sudo pacman -S --noconfirm --needed libreoffice-fresh
-#sudo pacman -S --noconfirm --needed
-
-echo "Installing category Other"
-
-#sudo pacman -S --noconfirm --needed
 
 echo "Installing category System"
 
@@ -114,7 +75,7 @@ sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gnome-keyring
 #sudo pacman -S --noconfirm --needed gnome-system-monitor
 #sudo pacman -S --noconfirm --needed gnome-terminal
-#sudo pacman -S --noconfirm --needed gnome-tweak-tool
+sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed grsync
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
@@ -150,12 +111,15 @@ sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed wmctrl
 sudo pacman -S --noconfirm --needed unclutter
-sudo pacman -S --noconfirm --needed rxvt-unicode
-sudo pacman -S --noconfirm --needed urxvt-perls
+#sudo pacman -S --noconfirm --needed rxvt-unicode
+#sudo pacman -S --noconfirm --needed urxvt-perls
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed xdo
 sudo pacman -S --noconfirm --needed xdotool
 sudo pacman -S --noconfirm --needed zenity
+sudo pacman -S --noconfirm --needed rofi
+sudo pacman -S --noconfirm --needed rofi-pass
+sudo pacman -S --noconfirm --needed rofimoji
 #sudo pacman -S --noconfirm --needed
 
 
